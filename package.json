@@ -1,0 +1,30 @@
+{
+  "name": "Flamingo",
+  "version": "1.0.0",
+  "description": "Against GFW --- Domain Name White List Used by GEE Router",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "pm2 start src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SammyLiang97/Flamingo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SammyLiang97/Flamingo/issues"
+  },
+  "homepage": "https://github.com/SammyLiang97/Flamingo#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "pm2": "^3.5.1"
+  }
+}
